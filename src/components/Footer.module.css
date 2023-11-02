@@ -1,0 +1,28 @@
+.footer_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h5 {
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.social_links {
+  display: inline-block;
+}
+.social_links img {
+  width: 40px;
+  padding-right: 20px;
+}
+
+.contact p {
+  display: block;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 18px;
+}

@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-bottom: 2.5rem;
+  margin-top: 0;
+}
+
+.nav ul {
+  margin-right: 2.5rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.nav a {
+  padding: 10px;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: #242424;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: var(--primaryColor);
+  background-color: var(--buttonColor);
+  /* padding: 10px; */
+  border-radius: 12px;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--primarayColor);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  color: #242424;
+  /* padding: 0.8rem 2rem; */
+  border-radius: 7px;
+}
+
+nav h2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--primarayColor);
+}

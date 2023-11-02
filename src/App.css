@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+
+  --primaryColor: #242424;
+  --buttonColor: #e9ecef;
+  --secondaryColor: #868e96;
+  --backgroundColor: #f8f9fa;
+}
